@@ -5,11 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>myExtension</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <main>
+        <p class="name_content"></p>
+        <div class="weather_wrapper">
+            <div class="container">
+                <p class="desc"></p>
+                <img src="" class="weather_image" alt="weather image" />
+            </div>
+            <div class="container">
+                <div>
+                    <p class="temp"></p>
+                    <span class="degree_symbol">&#176;</span>
 
+                </div>
+                <div class="date_container">
+                    <p class="date"></p>
+                    <div>
+                        <img src="./images/location.svg" class="location_icon" />
+                        <p class="location"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clock_wrapper">
+            <p class="time_hour"></p>
+            <p class="time_minutes"></p>
+        </div>
+        <form class="focus_form">
+            <label for="focus_input">What is your main focus for today?</label>
+            <input id="focus_input" name="focus_input" type="text" minlength="10" />
+        </form>
+        <div class="focus_container">
+            <input class="focus_checkbox" type="checkbox" />
+            <p class="focus_content"></p>
+        </div>
+        <form class="name_form">
+            <label for="name_input">Hello what's your name?</label>
+            <input id="name_input" name="name_input" type="text" minlength="3" />
+        </form>
+        <div class="quote_wrapper">
+            <p class="quote"></p>
+            <cite class="quote_author"></cite>
+        </div>
+    </main>
+    <script src="./index.js"></script>
 </body>
 
 </html>
