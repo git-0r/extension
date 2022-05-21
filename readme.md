@@ -8,7 +8,7 @@
 
 ## Screenshots
 
-![oboarding](/images/exonboard.png)
+![oboarding](/images/extension.png)
 
 ---
 
